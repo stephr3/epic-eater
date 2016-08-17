@@ -1,0 +1,40 @@
+<div class="new-form">
+  <h1>Add a New Restaurant</h1>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="title">Restaurant Name</label>
+        {{input value=title id="title"}}
+      </div>
+      <div class="form-group">
+        <label for="date">Today's Date</label>
+        {{input value=date id="date" type="datetime-local"}}
+      </div>
+      <div class="form-group">
+        <label for="neighborhood">What Neighborhood is it in?</label>
+        {{input value=neighborhood id="neighborhood"}}
+      </div>
+      <div class="form-group">
+        <label for="address">What's the Address?</label>
+        {{input value=address id="address"}}
+      </div>
+      <div class="form-group">
+        <label for="price">Enter a Price ($ to $$$$$)</label>
+        {{input value=price id="price"}}
+      </div>
+      <div class="form-group">
+        <label for="rating">Rating out of 5 (* to *****)</label>
+        {{input value=rating id="rating"}}
+      </div>
+      <div class="form-group">
+        <label for="imgurl">Insert Picture URL</label>
+        {{input value=imgurl id="imgurl" type="url"}}
+      </div>
+      <div class="form-group">
+        <label for="text">Type your Epic Review Here</label>
+        {{textarea value=text id="text"}}
+      </div>
+      <button {{action 'save'}}>Save</button>
+    </form>
+  </div>
+</div>
