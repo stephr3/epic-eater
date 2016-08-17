@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+      apiKey: "AIzaSyCeCq-YXDdmH8UOmoqA40FBUIxfOQfuRrY",
+      authDomain: "epic-eaters.firebaseapp.com",
+      databaseURL: "https://epic-eaters.firebaseio.com",
+      storageBucket: "epic-eaters.appspot.com"
+    },
     modulePrefix: 'epic-eaters',
     environment: environment,
     baseURL: '/',

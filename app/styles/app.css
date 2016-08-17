@@ -1,0 +1,49 @@
+body {
+  font-family: 'Josefin Slab', serif;
+}
+
+.post {
+  max-width: 60%;
+  margin: 70px auto 0;
+}
+
+.post img {
+  width: 100%;
+
+}
+
+.logo {
+  display: block;
+  margin: auto;
+}
+
+.fancy {
+  font-family: 'Lobster', cursive;
+}
+
+.body {
+  font-size: 1.4em;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.4em;
+  color: black;
+}
+
+.navbar-brand img {
+  max-width: 1.2em;
+}
+
+.nav {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #040404;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #9a9a9a;
+}
