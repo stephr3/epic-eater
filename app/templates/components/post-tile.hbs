@@ -1,12 +1,16 @@
 <div class="post">
+  {{#link-to 'post' post.id}}
   <h3 class="fancy">{{post.title}} - {{post.neighborhood}}</h3>
+  {{/link-to}}
   <h4 class="fancy">Price: {{post.price}} || Rating: {{post.rating}}</h4>
+  {{#link-to 'post' post.id class="img-link"}}
   <img src= {{post.imgurl}}>
+  {{/link-to}}
   <h4 class="fancy">{{post.address}}</h4>
   <p class="body">
     {{post.text}}
   </p>
   <p>
-    {{#link-to 'edit' post.id id="pencil"}}<span class="glyphicon glyphicon-pencil"></span>{{/link-to}}&nbsp;<span {{action 'delete' post}} class="glyphicon glyphicon-trash" title="delete"></span>
+    {{#link-to 'edit' post.id class="pencil"}}<span class="glyphicon glyphicon-pencil"></span>{{/link-to}}&nbsp;<span {{action 'delete' post}} class="glyphicon glyphicon-trash" title="delete"></span>
   </p>
 </div>

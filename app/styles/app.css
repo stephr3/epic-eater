@@ -14,6 +14,7 @@ body {
 .logo {
   display: block;
   margin: auto;
+  width: 60%;
 }
 
 .fancy {
@@ -59,7 +60,43 @@ body {
   cursor: default;
 }
 
-#pencil {
+.pencil {
   color: #040404;
   cursor: default;
+}
+
+a {
+  color: #040404;
+  cursor: default;
+}
+
+a:hover {
+  color: #ff463b;
+  cursor: default;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightgray;
+  cursor: default;
+  text-decoration: none;
+}
+
+.img-link:hover {
+opacity: .5}
+
+.post-page a:hover {
+  color: #040404;
+  cursor: default;
+}
+
+.post-page a:visited {
+  text-decoration: none;
+  color: #040404;
+  cursor: default;
+}
+
+.ember-view.active {
+  color: #040404;
+  text-decoration: none;
 }
