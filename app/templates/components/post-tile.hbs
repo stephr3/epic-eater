@@ -7,6 +7,6 @@
     {{post.text}}
   </p>
   <p>
-    <span {{action 'delete' post}} class="glyphicon glyphicon-trash" title="delete"></span>
+    {{#link-to 'edit' post.id id="pencil"}}<span class="glyphicon glyphicon-pencil"></span>{{/link-to}}&nbsp;<span {{action 'delete' post}} class="glyphicon glyphicon-trash" title="delete"></span>
   </p>
 </div>

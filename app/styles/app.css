@@ -9,7 +9,6 @@ body {
 
 .post img {
   width: 100%;
-
 }
 
 .logo {
@@ -53,4 +52,14 @@ body {
   max-width: 60%;
   margin: 6% auto;
   padding-left: 12%;
+}
+
+.glyphicon:hover {
+  color: #9a9a9a;
+  cursor: default;
+}
+
+#pencil {
+  color: #040404;
+  cursor: default;
 }

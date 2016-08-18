@@ -9,6 +9,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('new-post');
+  this.route('edit', {path: '/edit/:post_id'});
 });
 
 export default Router;
