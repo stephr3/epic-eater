@@ -1,1 +1,9 @@
 {{post-tile post=model class="post-page"}}
+<div class="post">
+  <h2 class="fancy">Comments</h2>
+  <hr>
+    {{new-comment post=model saveComment="saveComment"}}
+    {{#each model.comments as |comment|}}
+      {{display-comments comment=comment deleteComment="deleteComment"}}
+    {{/each}}
+</div>

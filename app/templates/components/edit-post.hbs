@@ -1,5 +1,6 @@
 <div class="pretty-form">
   <h1>Edit {{post.title}} Post</h1>
+  <hr>
   <div>
     <form>
       <div class="form-group">
@@ -34,7 +35,7 @@
         <label for="text">Type your Epic Review Here</label>
         {{textarea rows="6" cols="60" value=post.text id="text"}}
       </div>
-      <button {{action 'edit' post}}>Edit</button>
+      <button class="btn"{{action 'edit' post}}>Edit</button>
     </form>
   </div>
 </div>

@@ -8,5 +8,6 @@ export default DS.Model.extend({
   address: DS.attr(),
   price: DS.attr(),
   rating: DS.attr(),
-  text: DS.attr()
+  text: DS.attr(),
+  comments: DS.hasMany('comment', {async: true})
 });

@@ -1,5 +1,6 @@
 body {
   font-family: 'Josefin Slab', serif;
+
 }
 
 .post {
@@ -52,7 +53,6 @@ body {
   font-size: 1.5em;
   max-width: 60%;
   margin: 6% auto;
-  padding-left: 12%;
 }
 
 .glyphicon:hover {
@@ -99,4 +99,20 @@ opacity: .5}
 .ember-view.active {
   color: #040404;
   text-decoration: none;
+}
+
+em {
+font-size: 1.4em;
+}
+
+.btn {
+  font-size: 1.2em;
+  font-weight: bolder;
+  background-color: white;
+  border-color: black;
+}
+
+.btn:hover {
+  border-color: #ff463b;
+  border-width: 1.8px;
 }

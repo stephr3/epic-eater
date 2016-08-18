@@ -1,0 +1,8 @@
+  <h3>{{comment.name}}</h3>
+  <hr>
+  <p class="body">
+    {{comment.text}}
+  </p>
+  <p><em>
+    {{comment.date}}
+  </em>&nbsp;<span class="glyphicon glyphicon-trash" title="delete" {{action 'deleteComment' comment}}></span>&nbsp;<span class="glyphicon glyphicon-pencil"></span></p>
