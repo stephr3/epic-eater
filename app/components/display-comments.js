@@ -12,10 +12,8 @@ export default Ember.Component.extend({
       this.set("showEditComment", true);
     },
     updateComment(comment, params) {
-      this.sendAction('updateComment', comment, params);
-    },
-    hideEditComment(){
       this.set("showEditComment", false);
+      this.sendAction('updateComment', comment, params);
     }
   }
 });
