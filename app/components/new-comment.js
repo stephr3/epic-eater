@@ -15,6 +15,10 @@ export default Ember.Component.extend({
       };
       this.set('addNewComment', false);
       this.sendAction('saveComment', params);
+      this.set('name', "");
+      this.set('date', "");
+      this.set('text', "");
+
     }
   }
 });
