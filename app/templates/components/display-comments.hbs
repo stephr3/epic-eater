@@ -5,4 +5,7 @@
   </p>
   <p><em>
     {{comment.date}}
-  </em>&nbsp;<span class="glyphicon glyphicon-trash" title="delete" {{action 'deleteComment' comment}}></span>&nbsp;<span class="glyphicon glyphicon-pencil"></span></p>
+  </em>&nbsp;<span class="glyphicon glyphicon-trash" title="delete" {{action 'deleteComment' comment}}></span>&nbsp;<span class="glyphicon glyphicon-pencil" {{action 'showEditComment'}}></span></p>
+  {{#if showEditComment}}
+    {{edit-comment comment=comment updateComment="updateComment" hideEditComment="hideEditComment"}}
+  {{/if}}

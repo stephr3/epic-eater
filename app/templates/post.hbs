@@ -4,6 +4,6 @@
   <hr>
     {{new-comment post=model saveComment="saveComment"}}
     {{#each model.comments as |comment|}}
-      {{display-comments comment=comment deleteComment="deleteComment"}}
+      {{display-comments comment=comment deleteComment="deleteComment" updateComment="updateComment"}}
     {{/each}}
 </div>
